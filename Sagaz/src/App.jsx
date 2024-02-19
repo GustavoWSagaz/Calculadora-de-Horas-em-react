@@ -36,46 +36,6 @@ function App() {
 
   return (
     <>
-      <h1>Calculadora</h1>
-      <div className="zeca">
-        <h3>Escolha os horários que deseja calcular!</h3>
-        <input 
-          type="number" 
-          value={hi} 
-          onChange={(e) => setHi(e.target.value)} 
-          placeholder="Hora Inicial" 
-          />&nbsp;:&nbsp;
-        <input 
-          type="number" 
-          value={mi} 
-          onChange={(e) => setMi(e.target.value)} 
-          placeholder="Minuto Inicial" 
-          /><br />
-        <input 
-          type="number" 
-          value={hf} 
-          onChange={(e) => setHf(e.target.value)} 
-          placeholder="Hora Final" 
-          />&nbsp;:&nbsp;
-        <input 
-          type="number" 
-          value={mf} 
-          onChange={(e) => setMf(e.target.value)} 
-          placeholder="Minuto Final" 
-          /><br /><br />
-        <button 
-          onClick={soma}>Soma</button>
-        <button 
-          onClick={sub}>Diferença</button>
-        <h3 id="r">{resultado}</h3>
-      </div>
-    </>
-  )
-}
-
-export default App
-  return (
-    <>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
