@@ -1,13 +1,26 @@
-<!doctype html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image" href="src/assets/senai.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Horas</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <img src="bluekwai.gif" alt="KawaiCat"><br><br>
+    <div class="zeca">
+        <br>
+        <h2>Escolha os horários que deseja calcular!</h3><br>
+        <input type="number" id="horaInicial" placeholder="Hora">  : 
+        <input type="number" id="minInicial" placeholder="Minuto"><br><br>
+        <input type="number" id="horaFinal" placeholder="Hora">  : 
+        <input type="number" id="minFinal" placeholder="Minuto"><br><br>
+        <button onclick="soma()">Soma</button> 
+        <button onclick="sub()">Diferença</button><br><br>
+        <h2 id="r">Resultado</h3>
+        <br>
+    </div>
+</body>
 </html>
+<script src="script.js"></script>
